@@ -4,7 +4,7 @@ import { Logger } from 'src/interfaces';
 @Injectable({
   providedIn: 'root',
 })
-export class MainLoggerService implements Logger {
+export class AppLogger implements Logger {
   private _prefix = 'Logger';
 
   constructor() {}
