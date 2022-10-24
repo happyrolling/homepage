@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AppLogger } from 'src/utilities';
+import { AppLogger } from './services/main-logger.service';
 
 @NgModule({
   declarations: [],

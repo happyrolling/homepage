@@ -1,6 +1,6 @@
 import { Title } from '@angular/platform-browser';
 import { HappyComponent } from './HappyComponent';
-import { AppLogger } from '../services/main-logger.service';
+import { AppLogger } from '../../shared/services/main-logger.service';
 
 export abstract class PageComponent extends HappyComponent {
   constructor(logger: AppLogger, protected title: Title) {

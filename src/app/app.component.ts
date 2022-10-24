@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { AppLogger } from 'src/utilities';
 import { Title } from '@angular/platform-browser';
-import { PageComponent } from 'src/utilities/components/PageComponent';
+import { PageComponent } from 'src/app/utilities';
+import { AppLogger } from './shared/services/main-logger.service';
 
 @Component({
   selector: 'app-root',
